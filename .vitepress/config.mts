@@ -11,6 +11,7 @@ export default defineConfig({
   description: "Cupcup的笔记",
   cleanUrls: true,
   srcDir: './src',
+  outDir: './docs',
   vite: {
     server: {
       host: '127.0.0.1',

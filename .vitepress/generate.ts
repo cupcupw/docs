@@ -42,9 +42,9 @@ export const generateNavAndSidebar = (entry: string) => {
     const entrys = fs.readdirSync(entry, {
       withFileTypes: true
     }).filter(i => i.name !== 'public' && i.isDirectory())
+
     return entrys.reduce((pre, current) => {
       const nav = generateNavAndSidebarItem(path.join(current.path, current.name), current.name)
-      console.log('nav =>' , JSON.stringify(nav) );
       pre.nav.push(nav)
       pre.sidebar[`/${nav.text}/`] = [
         {
