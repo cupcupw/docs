@@ -1,1 +1,0 @@
-import{_ as e,c as n,o as t}from"./chunks/framework.C-lqhfE3.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"nodeJs/nginx配置二级域名转发.md","filePath":"nodeJs/nginx配置二级域名转发.md"}'),a={name:"nodeJs/nginx配置二级域名转发.md"};function o(s,_,r,c,i,d){return t(),n("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};

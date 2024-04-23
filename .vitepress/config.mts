@@ -12,6 +12,7 @@ export default defineConfig({
   cleanUrls: true,
   srcDir: './src',
   outDir: './docs',
+  base: './',
   vite: {
     server: {
       host: '127.0.0.1',
