@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./chunks/framework.BtW0nYc0.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"HTML/srcSet.md","filePath":"HTML/srcSet.md"}'),a={name:"HTML/srcSet.md"};function s(c,o,n,p,_,d){return r(),t("div")}const f=e(a,[["render",s]]);export{m as __pageData,f as default};
